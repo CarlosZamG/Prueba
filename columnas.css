@@ -1,0 +1,30 @@
+.wrapper {
+  display: grid;
+  border: 1px solid red;
+  grid-template-columns:66% 10% 24%;
+  height: 500px;
+  grid-template-areas: 
+  "a b c";
+
+
+}
+
+.d1 {
+  border: 1px solid blue;
+  grid-area: a;
+}
+
+
+.d2 {
+
+  border: 1px solid blue;
+  grid-area: b;
+}
+
+.d3 {
+  
+  border: 1px solid blue;
+  grid-area: c;
+}
+
+
